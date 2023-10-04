@@ -1,0 +1,17 @@
+{
+    "name": "login/kcdev",
+    "description": "Login e Cadastro com Estrutura MVC",
+    "authors": [
+        {
+            "name": "aciolekaua",
+            "email": "aciolekaua74@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"../../../App",
+            "Src\\":"../../Src"
+        }
+    }
+}
