@@ -1,9 +1,7 @@
 <?php
     $css = 'Login/StylesLogin.css';
     \Src\Classes\ClassLayout::setHeader('Login','Pagina de Login do site','Kauã',$css); ?>
-    <div class="fundo">
-        <img src="<?php echo(DIRIMG.'Login/fundo-login.jpg')?>">
-    </div>
+    <div class="fundo"></div>
     <form name="login" id="formLogin" action="" method="post">
         <div class="login">
             <div class="loginFormulario">
