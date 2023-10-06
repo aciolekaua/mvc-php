@@ -9,9 +9,9 @@
     define('DIRREQ',"{$_SERVER['DOCUMENT_ROOT']}{$barra}{$pastaInterna}");
 
     #Atalhos
-    define('DIRIMG',DIRPAGE."Public/Img/");
-    define('DIRCSS',DIRPAGE."Public/Css/");
-    define('DIRJS',DIRPAGE."Public/Js/");
+    define('DIRIMG',DIRPAGE."Public{$barra}Img/");
+    define('DIRCSS',DIRPAGE."Public{$barra}Css/");
+    define('DIRJS',DIRPAGE."Public{$barra}Js/");
 
     #Acesso ao DB
     define('HOST',"localhost");
