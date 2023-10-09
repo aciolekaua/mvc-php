@@ -2,4 +2,41 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{text-decoration: none; color: #333;}
+
+/*Classses Auxiliares*/
+.float{float: left;}
+
+.w100 {width: 100%;}
+
+.h40{height: 40px;}
+
+.center{text-align: center;}
+
+.inlineBlock{display: inline-block;}
+
+/*Configurações Gerais*/
+input[type='email'],input[type='password'],input[type='text']{
+    margin: 15px 0;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+input[type='button']{
+    width: 30%;
+    background: #025158;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type='button']:hover{
+    opacity: 0.8;
 }

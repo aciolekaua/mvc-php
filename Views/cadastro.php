@@ -1,15 +1,19 @@
 <?php 
-    $css = DIRCSS.'Cadastro/Styles.css';
+    $css = 'Cadastro/StylesCadastro.css';
     \Src\Classes\ClassLayout::setHeader('Cadastro','Pagina de Cadastro do site','',$css);?>
+
+    <div class="topFaixa float w100 center">
+        Cadastro de Clientes
+    </div>
     <form name="cadastro" id="formCadastro" action="" method="post">
-        <div class="cadastro">
-            <input type="text" id="nome" name="nome" placeholder="Nome:" required>
-            <input type="email" id="email" name="email" placeholder="Email:" required>
-            <input type="text" id="cpf" name="cpf" placeholder="CPF:">
-            <input type="text" id="dataNascimento" name="dataNascimento" placeholder="Data de Nascimento:" required>
-            <input type="password" id="senha" name="senha" placeholder="Senha:" required>
-            <input type="password" id="senhaConf" name="senhaConf" placeholder="Confirmação da Senha:" required>
-            <input type="button" value="Cadastrar" onclick="cadastrar()">
+        <div class="cadastro float center">
+            <input class="float w100 h40" type="text" id="nome" name="nome" placeholder="Nome:" required>
+            <input class="float w100 h40" type="email" id="email" name="email" placeholder="Email:" required>
+            <input class="float w100 h40" type="text" id="cpf" name="cpf" placeholder="CPF:">
+            <input class="float w100 h40" type="text" id="dataNascimento" name="dataNascimento" placeholder="Data de Nascimento:" required>
+            <input class="float w100 h40" type="password" id="senha" name="senha" placeholder="Senha:" required>
+            <input class="float w100 h40" type="password" id="senhaConf" name="senhaConf" placeholder="Confirmação da Senha:" required>
+            <input class="inlineBlock h40" type="button" value="Cadastrar" onclick="cadastrar()">
         </div>
     </form>
 <?php 

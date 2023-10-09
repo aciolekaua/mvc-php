@@ -1,0 +1,34 @@
+.cadastro {
+    width: 60%;
+    margin: 15px 20%;
+}
+
+.topFaixa {
+    height: 50px;
+    background: #025158;
+    font-weight: bold;
+    color: #fff;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 480px){
+    .cadastro{
+        width: 90%;
+        margin: 15px 5%;
+    }
+}
+
+@media screen and (max-width: 481px) and (max-width: 768px){
+    .cadastro{
+        width: 80%;
+        margin: 15px 10%;
+    }
+}
+
+@media screen and (max-width:769px) and (max-width: 1199px){
+
+}
+
+@media screen and (min-width: 1200px){
+    
+}
