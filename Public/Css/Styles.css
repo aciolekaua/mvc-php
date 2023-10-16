@@ -27,7 +27,7 @@ input[type='email'],input[type='password'],input[type='text']{
     padding: 0 10px;
 }
 
-input[type='button']{
+input[type='submit']{
     width: 30%;
     background: #025158;
     font-weight: bold;
@@ -37,6 +37,6 @@ input[type='button']{
     cursor: pointer;
 }
 
-input[type='button']:hover{
+input[type='submit']:hover{
     opacity: 0.8;
 }
